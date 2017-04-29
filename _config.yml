@@ -18,7 +18,7 @@ author: 'pjya0321'
 nickname: pjya0321
 bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
 location: 'Incheon, South Korea'
-url: 'http://biomadeira.github.io/pjya0321/'
+url: 'http://github.io/pjya0321/'
 image: 'assets/images/casper.png'
 
 short_url: 'github.io/pjya0321/'
@@ -58,13 +58,13 @@ exclude: [vendor]
 # or "master" otherwise
 safe: false
 lsi: false
-username: biomadeira
+username: pjya0321
 repo: pjya0321
 branch: master
 relative_source: ../pjya0321/
 destination: ../pjya0321-pages/
-production_url:  https://www.facebook.com/profile.php?id=100002122843259
-source_url:      https://www.facebook.com/profile.php?id=100002122843259
+production_url:  https://github.io/pjya0321/
+source_url:      https://github.com/pjya0321/
 
 exclude:
   - README.md
