@@ -35,5 +35,4 @@ current: about
 ***
 
 ## Contact me
-
-[Email](pjya0321@naver.com)
+Email : pjya0321@naver.com
