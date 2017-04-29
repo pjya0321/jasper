@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About
 class: 'post'
 navigation: True
