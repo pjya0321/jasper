@@ -8,22 +8,16 @@ language: 'en-uk'
 
 # Website info
 name: '리버싱 저장소'
-<<<<<<< HEAD
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
-=======
+
 description: "Reverse Engineering - SSS"
->>>>>>> a7ae0f7db381bc2a8720d87f499d777f3c8a3386
+
 
 # Author's info
 author: 'JYP'
 # edit 'categories' in the front matter of every post to match this username
 nickname: casper
 bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
-<<<<<<< HEAD
-location: 'Maine, USA'
-=======
 location: 'Incheon, South Korea'
->>>>>>> 9c7d594086f2757e22ce9ab7750367306d01ecb6
 url: 'http://biomadeira.github.io/pjya0321/'
 image: 'assets/images/casper.png'
 
