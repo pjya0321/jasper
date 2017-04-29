@@ -57,7 +57,7 @@ exclude: [vendor]
 safe: false
 lsi: false
 username: biomadeira
-repo: jasper
+repo: pjya0321
 branch: master
 relative_source: ../pjya0321/
 destination: ../pjya0321-pages/
