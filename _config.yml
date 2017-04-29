@@ -63,8 +63,8 @@ repo: pjya0321
 branch: master
 relative_source: ../pjya0321/
 destination: ../pjya0321-pages/
-production_url:  https://biomadeira.github.io/pjya0321/
-source_url:      https://github.com/biomadeira/pjya0321/
+production_url:  https://www.facebook.com/profile.php?id=100002122843259
+source_url:      https://www.facebook.com/profile.php?id=100002122843259
 
 exclude:
   - README.md
