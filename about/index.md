@@ -1,14 +1,11 @@
 ---
 layout: page
-cover: 'assets/images/cover6.jpg'
 title: About
 class: 'post'
 navigation: True
 logo: 'assets/images/ghost.png'
 current: about
 ---
-
-
 
 * 대한민국 인천 거주
 * 20대 중반
