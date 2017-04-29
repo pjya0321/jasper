@@ -3,7 +3,7 @@ layout: page
 title: About
 class: 'post'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'pjya0321.github.io/assets/images/ghost.png'
 current: about
 ---
 
