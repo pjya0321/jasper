@@ -3,9 +3,11 @@ layout: page
 title: About
 class: 'post'
 navigation: True
-logo: 'assets/images/ghost.small'
+logo: 'assets/images/ghost.png'
 current: about
 ---
+
+
 
 * 대한민국 인천 거주
 * 20대 중반
@@ -34,4 +36,4 @@ current: about
 
 ## Contact me
 
-pjya0321@naver.com
+[Email](pjya0321@naver.com)
