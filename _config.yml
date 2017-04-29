@@ -63,7 +63,7 @@ repo: pjya0321
 branch: master
 relative_source: ../pjya0321/
 destination: ../pjya0321-pages/
-production_url:  https://pjya0321/github.io
+production_url:  https://pjya0321.github.io
 source_url:      https://github.com/pjya0321/
 
 exclude:
