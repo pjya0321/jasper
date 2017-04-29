@@ -1,11 +1,8 @@
 ---
-layout: post
+layout: page
 cover: 'assets/images/cover6.jpg'
-title:  About
+title: About
 class: 'post'
-tags: fiction
-subclass: 'post tag-fiction'
-categories: 'pjya0321'
 navigation: True
 logo: 'assets/images/ghost.png'
 current: about
