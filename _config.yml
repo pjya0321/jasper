@@ -18,7 +18,7 @@ author: 'pjya0321'
 nickname: pjya0321
 bio: '공부하기싫다.'
 location: 'Incheon, South Korea'
-url: 'http://github.io/pjya0321/'
+url: 'http://pjya0321/github.io/'
 image: 'assets/images/casper.png'
 
 short_url: 'github.io/pjya0321/'
@@ -63,7 +63,7 @@ repo: pjya0321
 branch: master
 relative_source: ../pjya0321/
 destination: ../pjya0321-pages/
-production_url:  https://github.io/pjya0321/
+production_url:  https://pjya0321/github.io
 source_url:      https://github.com/pjya0321/
 
 exclude:
