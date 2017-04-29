@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: post
 title: About
 class: 'post'
 navigation: True
-logo: 'pjya0321.github.io/assets/images/ghost.png'
+logo: '/assets/images/ghost.png'
 current: about
 ---
 
