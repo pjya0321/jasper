@@ -28,7 +28,7 @@ disqus: pjya0321
 baseurl: /
 
 # Permalinks
-permalink: /:casper
+permalink: /:title
 # permalink: /author/:username
 # permalink: /tag/:tag
 
