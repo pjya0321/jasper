@@ -28,7 +28,7 @@ disqus: pjya0321
 baseurl: /
 
 # Permalinks
-permalink: /:title
+permalink: /:casper
 # permalink: /author/:username
 # permalink: /tag/:tag
 
@@ -58,7 +58,7 @@ exclude: [vendor]
 # or "master" otherwise
 safe: false
 lsi: false
-username: casper
+username: pjya0321
 repo: pjya0321
 branch: master
 relative_source: ../pjya0321/
