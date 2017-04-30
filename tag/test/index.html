@@ -125,23 +125,15 @@ current: test
 </nav>
 
     </div>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">{{ site.description }}</h2>
+        </div>
+    </div>
 
     <!-- This is the post loop - each post will be output using this markup -->
-    <main class="content" role="main">
-        <article class="post">
-            <!-- Everything inside the #post tags pulls data from the post -->
 
-            <header class="post-header">
-                <h1 class="post-title">{{ page.title }}</h1>
-            </header>
-
-            <section class="post-content">
-                {{content}}
-            </section>
-
-        </article>
-
-    </main>
 
 
     <article class="post">
