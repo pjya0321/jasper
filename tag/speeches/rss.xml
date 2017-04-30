@@ -2,15 +2,15 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-   
-      <title>biomadeira.github.io/jasper/</title>
-   
-   <link>http://biomadeira.github.io/jasper/</link>
+
+      <title>pjya0321.github.io/</title>
+
+   <link>http://pjya0321.github.io</link>
    <description>A beautiful narrative written with the world's most elegant publishing platform. The story begins here.</description>
    <language>en-uk</language>
    <managingEditor> Casper McFadden</managingEditor>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
-   
+
 	<item>
 	  <title>I Have a Dream</title>
 	  <link>/jasper//i-have-a-dream</link>
