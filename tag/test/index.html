@@ -1,13 +1,3 @@
----
-layout: home
-title: 리버싱 저장소
-cover: 'assets/images/cover1.jpg'
-class: 'test-template'
-navigation: True
-logo: 'assets/images/ghost.png'
-current: test
----
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -133,34 +123,6 @@ current: test
     </div>
 
     <!-- This is the post loop - each post will be output using this markup -->
-
-
-
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url | remove: '/' }}">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>{{ post.content | strip_html | truncatewords: 26 }} <a class="read-more" href="{{ site.baseurl }}{{ post.url | remove: '/' }}">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            {% if site.image %}<img class="author-thumb" src="{{ site.baseurl }}{{ site.image }}" alt="Author image" nopin="nopin" />{% endif %}
-            <!-- author -->
-            <a href='https://pjya0321.github.io/author/casper/'>{{ site.author }}</a>
-            <!-- [[tags prefix=" on "]] -->
-            {% if post.tags.size > 0 %}
-                on
-                {% for tag in post.tags %}
-                    {% if forloop.index == post.tags.size %}
-                       <a href='https://www.facebook.com/profile.php?id=100002122843259'>Facebook</a>
-                    {% else %}
-                       <a href='https://www.facebook.com/profile.php?id=100002122843259'>Facebook</a>,
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
-        </footer>
-    </article>
 
     <article class="post">
         <header class="post-header">
