@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+      <!-- [[! Document Settings ]] -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+      <!-- [[! Page Meta ]] -->
+      <title>{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}</title>
+      <meta name="description" content="{{ site.name }} - {{ site.description }}" />
+
+      <meta name="HandheldFriendly" content="True" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico" >
+
+      <!-- [[! Styles'n'Scripts ]] -->
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/screen.css" />
+      <link rel="stylesheet" type="text/css"
+            href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/syntax.css" />
+
+      <!-- [[! highlight.js ]] -->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+      <style>.hljs { background: none; }</style>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script>
+
+      <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+      {% include head.html %}
+  ---------------------------------------------------------------------------------------------------------------------------------
+
+  
+  <body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %} nav-closed">
+
+      {% include navigation.html %}
     <!-- [[! Document Settings ]] -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
