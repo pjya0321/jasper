@@ -34,20 +34,9 @@ class: 'post-template'
                 on
                 {% for tag in page.tags %}
                     {% if forloop.index == page.tags.size %}
-                    <a href='/author/casper'>pjya0321</a>
-                    <!-- [[tags prefix=" on "]] -->
-
-                        on
-
-                               <a href='https://www.facebook.com/profile.php?id=100002122843259'>Facebook</a>
+                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>
                     {% else %}
-                    <a href='/author/casper'>pjya0321</a>
-                    <!-- [[tags prefix=" on "]] -->
-
-                        on
-
-
-                               <a href='https://www.facebook.com/profile.php?id=100002122843259'>Facebook</a>
+                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>,
                     {% endif %}
                 {% endfor %}
                 {% endif %}
@@ -67,7 +56,7 @@ class: 'post-template'
 
             {% if site.image %}
             <figure class="author-image">
-                <a class="img" href="{{ site.baseurl }}author/{{ site.nickname }}" style="background-image: url({{ site.baseurl }}{{ site.image }})"><span class="hidden">{{ page.author }}'s Picture</span></a>
+                <a class="img" href="{{ site.baseurl }}author/{{ site.nickname }}" style="background-image: url(https://pjya0321.github.io/author/casper/)"><span class="hidden">{{ page.author }}'s Picture</span></a>
             </figure>
             {% endif %}
 
