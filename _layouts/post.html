@@ -34,9 +34,20 @@ class: 'post-template'
                 on
                 {% for tag in page.tags %}
                     {% if forloop.index == page.tags.size %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>
+                    <a href='/author/casper'>pjya0321</a>
+                    <!-- [[tags prefix=" on "]] -->
+
+                        on
+
+                               <a href='https://www.facebook.com/profile.php?id=100002122843259'>Facebook</a>
                     {% else %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>,
+                    <a href='/author/casper'>pjya0321</a>
+                    <!-- [[tags prefix=" on "]] -->
+
+                        on
+
+
+                               <a href='https://www.facebook.com/profile.php?id=100002122843259'>Facebook</a>
                     {% endif %}
                 {% endfor %}
                 {% endif %}
