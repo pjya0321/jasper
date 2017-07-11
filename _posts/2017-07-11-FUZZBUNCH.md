@@ -2,7 +2,7 @@
 layout: post
 cover: 'assets/images/cover6.jpg'
 title:  FUZZBUNCH를 사용한 해킹
-date:   2017-01-01 01:01:01
+date:   2017-07-11 01:01:01
 tags: fiction
 subclass: 'post tag-fiction'
 categories: 'pjya0321'
