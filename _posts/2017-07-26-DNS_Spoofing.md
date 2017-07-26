@@ -2,17 +2,16 @@
 layout: post
 cover: 'assets/images/cover6.jpg'
 title:  DNS Spoofing
-date:   2017-07-26 10:52:01
+date:   2017-07-26 22:52:01
 tags: hacking
-subclass: 'Dns_spoofing'
+subclass: 'post tag-fiction'
 categories: 'pjya0321'
 navigation: True
 logo: 'assets/images/ghost.png'
 ---
 
 
-## 	
-DNS스푸핑을 통한 악성코드 배포
+## DNS스푸핑을 통한 악성코드 배포
 -----
 
 크게 두 단계로 나누면  

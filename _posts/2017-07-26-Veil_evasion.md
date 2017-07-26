@@ -4,7 +4,7 @@ cover: 'assets/images/cover6.jpg'
 title:  Veil evasion
 date:   2017-07-26 22:47:01
 tags: hacking
-subclass: 'Veil'
+subclass: 'post tag-fiction'
 categories: 'pjya0321'
 navigation: True
 logo: 'assets/images/ghost.png'
