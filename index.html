@@ -1,16 +1,3 @@
----
-layout: default
-title: 리버싱 저장소
-cover: 'assets/images/cover1.jpg'
-class: 'home-template'
-navigation: True
-logo: 'assets/images/ghost.png'
-current: home
----
-<!-- < default -->
-<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
-
-<!-- The big featured header  -->
 <header class="main-header {% if page.cover %}"
         style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
@@ -21,17 +8,8 @@ current: home
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">{{ site.description }}</h2>
+            <h1 class="page-title">페이지 오류로 인한 임시 수정중입니다.</h1>
+            <h2 class="page-description">임시로 포스팅중인 블로그 : http://blog.naver.com/pjya0321</h2>
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
-
-<!-- The main content area on the homepage -->
-<main id="content" class="content" role="main">
-
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
-    {% include loop.html %}
-
-</main>
