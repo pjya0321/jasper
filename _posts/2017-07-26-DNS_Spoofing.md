@@ -2,8 +2,8 @@
 layout: post
 cover: 'assets/images/cover6.jpg'
 title:  DNS Spoofing
-date:   2017-07-26 22:52:01
-tags: hacking
+date:   2017-07-26 22:50:01
+tags: fiction
 subclass: 'post tag-fiction'
 categories: 'pjya0321'
 navigation: True
