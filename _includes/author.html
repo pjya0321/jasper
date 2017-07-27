@@ -1,0 +1,50 @@
+<div class="read-more">
+  <div class="read-more-header">
+    <a
+    {% if page.author.site %}
+    href="{{ page.author.site }}"
+    {% else %}
+    href="{{ site.owner.site }}"
+    {% endif %}
+    class="read-more-btn">작성자 정보</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    {% if page.author.name %}
+    <h3>{{page.author.name}}</h3>
+    {% else %}
+    <h3>{{site.owner.name}}</h3>
+    {% endif %}
+    <div class="author-container">
+      {% if page.author.name %}
+      <img class="author-img"
+        src="{% if page.author.avatar %}{{page.author.avatar}}
+          {% else %}{{site.url}}/{{site.owner.avatar}}{% endif %}"
+        alt="{{page.author.name}}" />
+      <div class="author-bio">
+        {{page.author.bio}}
+        <div class="author-share">
+            {% if page.author.github %}
+              <a style="padding:4px;" href="https://github.com/{{ page.author.github }}" target="_blank"><i class="fa fa-github fa-fw"></i>{{ page.author.github }}</a>
+            {% endif %}
+            {% if page.author.email %}
+              <a style="padding:4px;" href="mailto:{{ page.author.email }}" target="_blank"><i class="fa fa-envelope fa-fw"></i>{{ page.author.email }}</a>
+            {% endif %}
+        </div>
+      </div>
+      {% else %}
+      <img class="author-img" src="{{site.url}}/{{site.owner.avatar}}" alt="{{site.owner.name}}" />
+      <div class="author-bio">
+        {{site.owner.bio}}
+        <div class="author-share">
+            {% if site.owner.github %}
+              <a style="padding:4px;" href="https://github.com/{{ site.owner.github }}" target="_blank"><i class="fa fa-github fa-fw"></i>{{ site.owner.github }}</a>
+            {% endif %}
+            {% if site.owner.email %}
+              <a style="padding:4px;" href="mailto:{{ site.owner.email }}" target="_blank"><i class="fa fa-envelope fa-fw"></i>{{ site.owner.email }}</a>
+            {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
