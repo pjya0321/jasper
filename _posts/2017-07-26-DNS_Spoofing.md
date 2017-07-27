@@ -21,7 +21,7 @@ author:
 1.내장툴 ettercap 을 사용해서 DNS스푸핑 공격을 한다.  
 2.beef를 사용해서 백도어가 다운되게 리다이렉션 한다.  
 
-![1](assets/postimage/DNS1.png)
+![1]({{ site.url }}/assets/postimage/DNS1.png)
 
 etter.dns 파일을 위와같이 수정해준다.  
 
