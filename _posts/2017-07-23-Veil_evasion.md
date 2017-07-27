@@ -25,7 +25,7 @@ apt-get install veil-evasion
 
 ./Veil-Evasion.py 을 실행시킨다.  
 
-![1](assets/postimage/Veil1.png)
+![1]({{ site.url }}/assets/postimage/Veil1.png)
 
 실행화면이다.  
 1. list를 입력해서 페이로드 목록들 중에서 선택한다.  
@@ -34,7 +34,7 @@ apt-get install veil-evasion
 4. 악성파일 이름을 정해준다.  
 5. 디폴트값 입력해주고 엔터  
 
-![2](assets/postimage/Veil2.png)
+![2]({{ site.url }}/assets/postimage/Veil2.png)
 
 그러면 자동으로 핸들러가 생성되고 악성파일도 생성된다.  
 경로는 생성창에서 볼 수 있다.  
@@ -44,6 +44,6 @@ apt-get install veil-evasion
 생성된 핸들러를 메타스플로잇 콘솔로 실행시키고,  
 악성파일을 윈10 윈도우디펜스가 켜진 곳에서 실행시켰다.  
 
-![3](assets/postimage/Veil3.png)  
+![3]({{ site.url }}/assets/postimage/Veil3.png)  
 
 세션 열렸다 잘된다.
