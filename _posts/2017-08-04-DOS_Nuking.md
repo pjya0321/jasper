@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Ettercap 을 이용한 누킹
-description: "Ettercap 을 이용한 누킹공격"
+description: "Ettercap Nuking"
 modified: 2017-08-04
-tags:[penetration_testing,DNS_Nuking]
-categories:[penetration testing]
+tags: [penetration_testing,DNS_Nuking]
+categories: [penetration testing]
 image:
     feature:
     credit:
@@ -40,7 +40,7 @@ F, --filter <file>         load the filter <file> (content filter)
 M, --mitm <METHOD:ARGS>    perform a mitm attack  
 
 ![4]({{ site.url }}/assets/postimage/DN4.png)
-![4]({{ site.url }}/assets/postimage/DN5.png)
+![5]({{ site.url }}/assets/postimage/DN5.png)
 
 윈7의 브라우저가 뻗었습니다.  
 끝  
