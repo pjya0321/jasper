@@ -77,7 +77,7 @@ $(document).ready(function(){
       {
         "position": "bottom",
         "content": [
-          "<a class='fa fa-search' href='blog/search/'></a>",
+          "<a class='fa fa-search' href='search/'></a>",
         ]
       }
     ]
